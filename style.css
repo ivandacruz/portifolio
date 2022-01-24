@@ -617,6 +617,7 @@ header {
   font-family: var(--font-action);
   font-size: 1.5rem;
   cursor: pointer;
+ 
 }
 
 .sessao-orcamento input[type="number"]{
@@ -624,7 +625,7 @@ header {
   width: 4rem;
   font-size: 2rem;
   border-radius: 10px;
-  padding: 0.3rem;
+  padding: 0.5rem;
 }
 
 .btn-orcamento{
@@ -655,6 +656,8 @@ footer{
   font-family: var(--font-secundary);
   color: #a7a7a7;
   font-size: 1.2rem;
+  justify-content: center;
+  align-items: center;
 }
 
 /*     * Redes Sociais footer *     */
@@ -667,6 +670,23 @@ footer{
 .social-list ul {
   display: flex;
 }
+
+.social-list i {
+  color: #555;
+  height: 2.5rem;
+  width: 2.5rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40%;
+  transition: background-color 1s;
+}
+
+.social-list i:hover {
+  background-color: #3498bd;
+}
+
 
 /*  * Botão de retorno ao topo! *  */
 #link-topo{
